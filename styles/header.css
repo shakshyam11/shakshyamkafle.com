@@ -1,0 +1,141 @@
+.frontheader{
+     
+     color: rgb(176, 25, 51);
+     font-weight:bolder;
+     font-size: 25px;
+     font-family: poppins;
+     
+     margin-left: 100px;
+
+}
+.header{
+    
+     height: 60px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     background-color: white;
+     z-index:  10;
+     background-color: white;
+     border-bottom-width: 1px;
+     border-bottom-style: solid;
+     border-bottom-color: rgb(121, 118, 118);
+     position : fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     
+}
+.middleheader{
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 500px;
+     background-color: white
+     
+}
+.homebutton{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+    
+     background-color: wheat;
+     height: 50px;
+     width: 100%;
+     background-color: transparent;
+     
+}
+.home{
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+      opacity: 1;
+     font-size: large;
+     width:100px;
+     height: 40px;
+     border-radius: 5px;
+     border-color: transparent;
+     color: white;
+     background-color: rgb(176, 25, 51);
+     cursor: pointer;
+ }
+  
+     
+    
+     
+ 
+     .tooltip{
+     position: absolute;
+     color: black;
+     background-color: gray;
+     padding-left: 8px;
+     padding-right: 8px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 4px;
+
+ }
+ .home,.tooltip{
+     top: PX;
+ }
+ 
+ .home:hover{
+     background-color: rgb(96, 7, 7);
+     transition: 1s;
+ }
+.lastheader{
+     display: flex;
+     margin-right: 30px;
+     width: 200px;
+    
+     justify-content: center;
+     align-items: center; 
+}
+.lastdiv{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 40px;
+}
+.login{
+     margin-right: 20px;
+     height: 40px;
+     width: 60px;
+     border-radius: 5px;
+     border-color:rgb(176, 25, 51);
+     border-style: solid;
+     color: rgb(176, 25, 51);
+     cursor: pointer;
+     background-color: transparent;
+}
+.signup{
+     margin-right: 20px;
+     height: 40px;
+     width: 80px;
+     border-radius: 5px;
+     border-color:rgb(176, 25, 51);
+     border-style: solid;
+     color: white;
+     background-color:  rgb(176, 25, 51);
+     cursor: pointer;
+}
+.login:hover{
+     background-color:  rgb(176, 25, 51);
+     color: white;
+     transition: 0.3s;
+} 
+@media(max-width:770px){
+    .home{
+       display: none;
+    }
+    .frontheader{
+     margin-left: 10px;
+    }
+    
+}
+  
+  
